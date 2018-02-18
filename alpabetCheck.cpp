@@ -6,18 +6,19 @@ char ch;
 public:
 void get()
 {
-cout<<"Enter a character ";
+cout<<"INPUT"<<endl;
 	cin>>ch;
 	}
 void chck()
 {
+	cout<<"OUTPUT"<<endl;
 if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
 	{
-		cout<<"It is a character"<<endl;
+		cout<<"Alphabet"<<endl;
 	}
 	else
 	{
-		cout<<"It is not a Character"<<endl;
+		cout<<"No"<<endl;
 	}
 }
 };
